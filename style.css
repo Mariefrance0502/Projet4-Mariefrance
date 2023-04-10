@@ -703,13 +703,18 @@ font-size: 15px;
 text-align: center;
 }
 
+
 p.text-center-citation {
+    font-style: italic;
+    font-weight: bold;
     color: #000000;
     font-size: 16px;
 }
 
 h2.text-image {
+    font-size: 24px;
     color: black;
+    font-weight: bold;
     margin-top: -15px;
     margin-bottom: 50px;
 }
@@ -722,7 +727,7 @@ h1.text-center-intro {
 #bloc-4-portfolio p
 {
     color: black;
-    font-size: 20px;
+    font-size: 14px;
     text-align: center;
     margin-top: auto;
 }
@@ -784,7 +789,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 900px;
     margin: auto auto auto auto;
 }
 
@@ -810,9 +815,13 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-size: 27px;
     line-height: 1.4em;
 }
+
+
 
 h3 {
     font-size: 15px;
@@ -845,7 +854,6 @@ h4 {
 
     margin-bottom: 24px;
 }
-
 
 
 
@@ -882,11 +890,18 @@ h4 {
 
 .tc-white {
 color: white;
+font-weight: bold;
 }
 
-
 .tc-black {
-    color: black
+    color: white; 
+    
+}
+
+.tc-black-texte
+{
+    color: white; 
+    font-size: 28px;
 }
 
 .btn-atomic-tangerine {
@@ -914,6 +929,7 @@ color: white;
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
 }
+
 
 .icon-dark-slate-blue {
     color: #364577!important;
