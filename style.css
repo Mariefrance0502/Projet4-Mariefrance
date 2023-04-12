@@ -897,13 +897,14 @@ font-weight: bold;
 }
 
 .tc-black {
-    color: white; 
-    
+    color: black; 
+    background-color: #F3976C;
 }
 
 .tc-black-texte
 {
-    color: white; 
+    color: black; 
+    background-color: #F3976C; 
     font-size: 28px;
 }
 
