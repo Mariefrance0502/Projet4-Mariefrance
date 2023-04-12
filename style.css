@@ -889,12 +889,14 @@ font-weight: bold;
 }
 
 .tc-black {
-    color: white; 
+    color: black; 
+    text-align: center;
 }
 
 .tc-black-texte
 {
-    color: white; 
+    color: black; 
+    text-align: center;
     font-size: 28px;
 }
 
