@@ -91,10 +91,11 @@
 			<div class="formulaire">
 				<form id="form_1" novalidate>
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name"  class="form-control" type="text" placeholder="Entrez votre nom et prénom " required > 
+						<input type="text" id="name" placeholder="Entrez votre nom et prénom"
+							class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label for="email">
@@ -104,27 +105,19 @@
 							class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" placeholder="Entrez une adresse email valide" type="email" required>
-					</div>
-
-					<div class="form-group">
 						<label for="info">
-							Comment nous avez-vous connu ?
+							Comment connaissez-vous La chouette agence?
 						</label>
-						<input class="form-control" placeholder="Racontez nous" type="email" required>
+						<input class="form-control" type="text" placeholder="Racontez-nous" required
+							id="info" />
 					</div>
-
-
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label> 
-						<input  id="message" class="form-control" rows="4" cols="50" type="message"placeholder="Ecrivez votre message"  required>
-					</div> 
-
+						<label for="message">
+							Parlez-nous de votre projet. Ajoutez autant de détails que nécessaire.<br>
+						</label>
+						<textarea id="message" class="form-control" rows="4" cols="50"
+							placeholder="Entrez votre message" required></textarea>
+					</div>
 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
