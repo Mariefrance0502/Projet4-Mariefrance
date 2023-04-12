@@ -751,21 +751,14 @@ h1.text-center-intro {
     margin-bottom: 50px;
 
 }
+
+
 .contact p
 {
     font-size: 20px;
     text-align: center;
+    margin-top: 40px;
 }
-
-.contact-titre
-{
-    padding-top: 10px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    color: #000000;
-}
-
 
 .hero-bloc-text {
     font-size: 38px;
